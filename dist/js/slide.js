@@ -1,0 +1,1 @@
+$(".parte-2").slick({infinite:!0,slidesToShow:1,dots:!0,arrows:!1,centerMode:!1,autoplay:!0,speed:150});

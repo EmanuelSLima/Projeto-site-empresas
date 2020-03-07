@@ -1,0 +1,526 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+/*Classes auxiliares*/
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Slider*/
+.slick-dotted ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 35px;
+}
+.slick-dotted ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.slick-dotted ul li button{
+    border: 0;
+    outline: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: silver;
+    background-color: silver;
+    cursor: pointer;
+}
+/*Classe cabecalho*/
+.cabecalho{
+    width: 100%;
+    height: 90vh;
+    padding: 40px 2%;
+    background-image: url('../img/capa.png');
+    background-size: cover;
+    background-position: center;
+}
+/*Classe logo*/
+.logo{
+    width: 180px;
+    height: 20px;
+    background: url('../img/logo-danki.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+/*Classe menu-principal*/
+.menu-principal{
+    float: right;
+}
+.menu-principal ul{
+    list-style: none;
+}
+.menu-principal ul li{
+    display: inline-block;
+}
+.menu-principal ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+/*menu-mobile*/
+.menu-mobile{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -8px;
+    margin-right: 10px;
+    background-image: url('../img/menu.png');
+    float: right;
+    background-size: cover;
+    cursor: pointer;
+}
+.menu-mobile ul{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 80px;
+}
+.menu-mobile ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid silver;
+}
+.menu-mobile ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+.menu-mobile ul li:hover{
+    background-color:  #472562;
+}
+
+/*Classe chamada-1*/
+.chamada-1{
+    float: right;
+    margin: 50px 100px;
+    max-width: 500px;
+}
+.chamada-1 h2{
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+}
+.chamada-1 p{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+/*Classe secao-1*/
+.secao-1{
+    background-color: #472562;
+    padding: 0 2%;
+    height: 400px;
+}
+.texto-secao-1{
+    float: left;
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+    left: 80px;
+}
+.texto-secao-1 h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.texto-secao-1 p{
+    font-weight: lighter;
+    font-weight: 20px;
+    margin: 15px 0 10px 0;
+}
+.texto-secao-1 ul{
+    list-style: inside;
+}
+.texto-secao-1 ul li{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/*Classe btn1-texto*/
+.btn1-texto{
+    border: none;
+    cursor: pointer;
+    width: 155px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #ff703d;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+}
+
+/*Classe device-secao-1*/
+.device-secao-1{
+    width: 50%;
+    height:440px;
+    position: relative;
+    float: left;
+    top: -40px;
+    background-image: url('../img/device.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Classe secao-2*/
+.secao-2{
+    padding: 50px 10px 0 10px;
+    text-align: center;
+    background-color: white;
+}
+.secao-2 h2{
+    color: #472663;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.secao-2 p{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px 0 0px 0;
+    max-width: 800px;
+    display: inline-block;
+}
+.secao-2 img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    z-index: 10;
+}
+
+/*Classe secao-3*/
+.secao-3{
+    width: 100%;
+}
+.wrap-parte-1{
+    max-width: 600px;
+    float: right;
+    margin: 0 30px 0 20px;
+}
+.parte-1{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 100px 0 70px 0;
+    background-color: #835fa7;
+}
+.parte-1 h2{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 25px;
+}
+.parte-1 p{
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/*Classe parte-2*/
+.parte-2{
+    float: left;
+    width: 50%;
+    padding: 0;
+    background: white;
+}
+.sobre-autor{
+    max-width: 600px;
+    float: left;
+    margin-left: 30px;
+    padding: 20px 10px;
+    margin-top: 70px;
+}
+.titulo-autor{
+    width: 100%;
+    float: left;
+}
+.infor-autor{
+    float: left;
+    margin-right: 20px;
+}
+.infor-autor h2{
+    font-weight: normal;
+    font-size: 20px;
+    color: #232323;
+}
+.infor-autor p{
+    font-weight: normal;
+    font-size: 13px;
+    margin: 5px 0 20px 0;
+    font-style: italic;
+    color: #232323;
+}
+.imagem-autor{
+    background: red;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+}
+.texto-autor{
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 50px;
+    width: 100%;
+}
+.sliders{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    padding-left: 30px;
+}
+.sliders span{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: silver;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*Classe diferenciais*/
+.diferenciais{
+    background-color: white;
+    padding: 50px 0;
+}
+.diferenciais > .container > h2{
+    color: #472563;
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+.diferenciais-box{
+    width: 100%;
+    margin-top: 30px;
+}
+.diferenciais-single{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.diferenciais-single h2{
+    font-size: 50px;
+}
+.diferenciais-single h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.diferenciais-single p{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0 2%;
+}
+.fa-html5{
+    color: red;
+}
+.fa-css3-alt{
+    color: blue;
+}
+.fa-js-square{
+    color: orange;
+}
+
+/*Classe secao-4*/
+.secao-4{
+    background-color: #472563;
+    padding: 40px 0;
+}
+.form{
+    float: left;
+    width: 50%;
+    padding: 0 20px 0 10px;
+}
+.form h2{
+    font-weight: lighter;
+    font-size: 22px;
+    color: white;
+}
+.form p{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    margin: 20px 0 30px 0;
+}
+.secao-4 form input[type=text], input[type=email]{
+    width: 100%;
+    max-width: 480px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.secao-4 form textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 140px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.secao-4 form input[type=submit]{
+    border: none;
+    cursor: pointer;
+    width: 155px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #ff703d;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+}
+
+/*Classe container-mapa*/
+.container-mapa{
+    float: left;
+    width: 50%;
+    padding: 0 10px 0 20px;
+}
+.container-mapa h2{
+    font-weight: lighter;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+}
+.mapa{
+    width: 100%;
+    padding-top: 80%;
+    background-color: white;
+    border: 3px solid #ccc;
+}
+
+/*Classe rodape*/
+.rodape{
+    padding: 20px 0;
+    background-color: #192123;
+    color: white;
+}
+.rodape .p1{
+    float: left;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.rodape .p2{
+    float: right;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/*Formatacao para dispositivos mobiles*/
+@media screen and (min-width: 0) and (max-width: 768px){
+    .menu-principal{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-mobile ul {
+        display: none;
+    }
+    .chamada-1{
+        max-width: 500px;
+        float: none;
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    .chamada-1 h2{
+        font-size: 35px;
+        font-weight: normal;
+        color: white;
+    }
+    .chamada-1 p{
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: lighter;
+    }
+    .secao-1{
+        height: auto;
+    }
+    .texto-secao-1{
+        float: none;
+        margin-top: 0;
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .device-secao-1{
+        display: none;
+    }
+    .parte-1{
+        width: 100%;
+        padding: 80px 0 30px 0;
+    }
+    .parte-2{
+        width: 100%;
+        padding: 55px 0 50px 0;
+    }
+    .diferenciais{
+        background-color: rgb(238, 238, 238);
+    }
+    .diferenciais-single{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .diferenciais-single p{
+        max-width: 400px;
+        display: inline-block;
+    }
+    .sobre-autor{
+        padding: 5px 20px 5px 10px;
+    }
+    .form{
+        width: 100%;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .form p{
+        width: 100%;
+        text-align: center;
+    }
+    .container-mapa{
+        width: 100%;
+        padding-right: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .rodape{
+        text-align: center;
+    }
+    .rodape .p1{
+        float: none;
+    }
+    .rodape .p2{
+        float: none;
+        margin-top: 5px;
+    }
+    
+}
